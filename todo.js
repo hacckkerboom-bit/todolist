@@ -2,7 +2,7 @@ let task = document.querySelector('#task');
 let addBtn = document.querySelector('.add-Btn');
 let outecontainer = document.querySelector('.items-maincontainer');
 
-let lists = ['gydgfdgfd', 'vishnu'];
+let lists = [];
 
 function add() {
   let values = task.value.trim();
